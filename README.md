@@ -1,2 +1,3 @@
-# my-portfolio
-This is my professional portfolio
+# Kyle Moody's portfolia
+
+This is my professional portfolio.  It uses AWS and ReactJS.
