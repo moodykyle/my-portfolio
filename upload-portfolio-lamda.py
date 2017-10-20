@@ -9,7 +9,7 @@ def lambda_handler = (event, context):
     topic = sns.Topic('arn:aws:sns:us-east-1:295168583870:deployPortfoliotopic')
 
     try:
-        3 = boto3.resource('s3', config=Config(signature_version='s3v4'))
+        s3 = boto3.resource('s3', config=Config(signature_version='s3v4'))
 
         portfolio_bucket = s3.Bucket('portfolio.kylemoody.com')
         build_bucket = s3.Bucket('portfoliobuild.kylemoody.info')
